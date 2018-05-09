@@ -1,0 +1,76 @@
+/* Universal styles */
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+  height: 64px;
+
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px 16px 24px;
+}
+
+header .container .logo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+#txt_colmar {
+  font-weight: bold;
+}
+
+#txt_adademy {
+  color: gray;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 16px;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  top: 4rem;
+  background-color: #C0C0C0;
+}
+
+.banner .learn {
+  display: flex;
+}
+
+.learn img {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.txt_banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#txt_banner1 {
+  font-size: 3rem;
+  font-weight: bold;
+  width: 80%;
+}
+
+#txt_banner2 {
+  font-size: 2rem;
+  width: 80%;
+}
