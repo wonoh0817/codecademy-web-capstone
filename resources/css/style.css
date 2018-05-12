@@ -11,7 +11,6 @@ header {
   width: 100%;
   background-color: white;
   height: 64px;
-
 }
 
 header .container {
@@ -82,10 +81,19 @@ nav a:hover {
 
 .txt_banner .button {
   background-color: #808080;
+  border-radius: 5px;
   color: white;
   width: 80%;
   text-align: center;
   padding: 0.5rem 0;
+  border: 1px solid #C0C0C0;
+  transition: color 750ms ease-in 250ms,
+              background-color 750ms ease-in 250ms;
+}
+
+.txt_banner .button:hover {
+  background-color: #FFFFFF;
+  color: black;
 }
 
 .txt_banner .button span {
@@ -126,7 +134,7 @@ nav a:hover {
 }
 
 .practicing .cont-left h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   padding-bottom: 24px;
 }
@@ -210,7 +218,7 @@ nav a:hover {
 }
 
 .courses .start h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
   padding-top: 32px;
 }
@@ -257,7 +265,7 @@ nav a:hover {
 }
 
 .thesis h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
   padding-top: 2rem;
 }
@@ -282,7 +290,7 @@ nav a:hover {
 }
 
 .thesis-left h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: bold;
   padding-bottom: 8px;
 }
