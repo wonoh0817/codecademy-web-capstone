@@ -64,6 +64,22 @@ nav li {
   justify-content: center;
 }
 
+.txt_banner h2 {
+  padding-bottom: 48px;
+}
+
+.txt_banner .button {
+  background-color: #808080;
+  color: white;
+  width: 80%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.txt_banner .button span {
+  font-size: 1.5rem;
+}
+
 #txt_banner1 {
   font-size: 3rem;
   font-weight: bold;
@@ -73,4 +89,248 @@ nav li {
 #txt_banner2 {
   font-size: 2rem;
   width: 80%;
+}
+
+/* Practicing */
+.main {
+  position: relative;
+  top: 4rem;
+}
+
+.main .practicing {
+  display: flex;
+}
+
+.practicing .cont-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 32px 24px;
+}
+
+.practicing .cont-left img {
+  height: 46%;
+  padding-bottom: 2rem;
+}
+
+.practicing .cont-left h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+
+.practicing .cont-left h3 {
+  font-size: 1.5rem;
+  padding-bottom: 40px;
+}
+
+.practicing .cont-left h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 32px;
+}
+
+.practicing .cont-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.practicing .cont-right img {
+  width: 35%;
+  height: 100%;
+  margin: 16px 16px;
+}
+
+.practicing .cont-right h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.practicing .cont-right h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.practicing .cont-right h5 a {
+  font-size: 1rem;
+  color: #87CEEB;
+}
+
+.practicing .cont-right .txt_main1 {
+  display: flex;
+  margin-top: 16px;
+}
+
+.txt_main1 .orientation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.practicing .cont-right .txt_main2 {
+  display: flex;
+}
+
+.txt_main2 .campus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.practicing .cont-right .txt_main3 {
+  display: flex;
+  background-color: #C0C0C0;
+}
+
+.txt_main3 .guest_lecture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Courses */
+.courses {
+  text-align: center;
+  background-color: #DCDCDC;
+}
+
+.courses .start h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-top: 32px;
+}
+
+.content-courses {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: wrap;
+  padding: 32px 72px;
+}
+
+.content-courses .course {
+  width: 30%;
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.course img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.course h2 {
+  text-align: left;
+  padding-left: 16px;
+  padding-bottom: 0.5rem;;
+}
+
+.course_name {
+  margin-top: 16px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.course_desc {
+  font-size: 1.1rem;
+}
+
+/* Thesis */
+.thesis {
+  text-align: center;
+  background-color: #F0FFFF;
+}
+
+.thesis h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+.thesis-body {
+  display: flex;
+  padding: 32px 24px;
+}
+
+.thesis-body .thesis-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+}
+
+.thesis-left video {
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 24px;
+}
+
+.thesis-left h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.thesis-left h3 {
+  font-size: 1.5rem;
+  padding-bottom: 32px;
+}
+
+.thesis-right {
+  padding-left: 24px;
+}
+
+.thesis-course {
+  display: flex;
+  text-align: left;
+}
+
+#thesis-course1 {
+  background-color: #DCDCDC;
+}
+
+.thesis-course img {
+  width: 35%;
+  height: 100%;
+  padding: 16px 16px;
+}
+
+.thesis-course .txt-thesis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thesis-course h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.thesis-course h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #F0FFFF;
+  border-top: 1px solid #D3D3D3;
+}
+
+footer .content {
+  display: flex;
+  font-size: 1rem;
+  padding: 16px 24px 48px 24px;
+}
+
+footer .copyright {
+  flex-grow: 1;
+}
+
+#terms {
+  padding-right: 8px;
 }
